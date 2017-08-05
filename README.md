@@ -1,5 +1,5 @@
 # MAPF-splitting-solver
-Multi Agents Path Finding (MAPF) advanced solver infrastructure with Bi-Directional solver and automated splitting method
+Multi Agents Path Finding (MAPF) advanced solver infrastructure with Bi-Directional solver and automated splitting method.
 
 The MAPF code infrastructure was created by Ben Gurion University of the Negev.
 
