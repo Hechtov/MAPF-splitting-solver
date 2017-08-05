@@ -1,12 +1,21 @@
+The map was created automatically by the code infrastructure.
+
+Problen description:
+Problem map - a grid of 50x50
+Number of agents - 10 agents
+Percetage of obstacles - 20
+
+************************************************************************
+########################################################################
 The final summary of the execution:
-
 ########################################################################
 ************************************************************************
 
-You solved the problem using the splitted Forward-Forward algorithm - both of the parts were solved using forward search solver
+#################################################
 
-########################################################################
-************************************************************************
+The problem were solved using the splitted Forward-Forward algorithm - both of the parts were solved using forward search solver
+
+#################################################
 
 The middle position of the plan from full Astar on all the agents together:
 |(33,17)|(4,16)|(26,34)|(22,23)|(34,19)|(37,32)|(25,43)|(7,18)|(10,28)|(41,20)|
