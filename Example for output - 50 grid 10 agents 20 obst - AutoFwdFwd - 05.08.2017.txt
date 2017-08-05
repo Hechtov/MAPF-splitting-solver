@@ -1,0 +1,762 @@
+The final summary of the execution:
+
+########################################################################
+************************************************************************
+
+You solved the problem using the splitted Forward-Forward algorithm - both of the parts were solved using forward search solver
+
+########################################################################
+************************************************************************
+
+The middle position of the plan from full Astar on all the agents together:
+|(33,17)|(4,16)|(26,34)|(22,23)|(34,19)|(37,32)|(25,43)|(7,18)|(10,28)|(41,20)|
+Here are the new caculated middle positions from the separeted single agents solutions:
+|(36,19)|(3,21)|(25,34)|(22,23)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+Great, you executed the automated middle positions algorithm!!
+
+#################################################
+                Final Results!:
+#################################################
+---------------------------------------------------
+Total cost full regular A*star = 262
+Total cost Bi - Directional A* star = 262
+Bi - Directional details:
+Total cost starting half A* star = 134
+Total cost reverse half A* star = 128
+---------------------------------------------------
+Total time full regular A*star = 5116
+Total time Bi - Directional A* star = 5
+Bi - Directional details:
+Total time starting half A* star = 3
+Total time reverse half A* star = 2
+--------------------------------------------------
+Total generated nodes full regular A*star = 10058
+Total generated nodes Bi-Directional A* star = 505
+Bi - Directional details:
+Total generated nodes starting half A*star = 376
+Total generated nodes reverse half A*star = 129
+--------------------------------------------------
+Total opened nodes full regular A*star = 3437750
+Total opened nodes Bi-Directional A* star = 5787
+Bi - Directional details:
+Total opened nodes starting half A*star = 3315
+Total opened nodes reverse half A*star = 2472
+--------------------------------------------------
+*********************THE END**************************
+
+
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+Full Output:
+----------------------------------------------------------------------------------------------------
+====================================================================================================
+
+Solving Problem instance:0 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 28
+Solution depth: 0
+
+Time In milliseconds: 32.6696
+Total Expanded Nodes: 28
+Total Generated Nodes: 43
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 27
+EPEA*/SIC Quick insertions cancelled: 13
+Expanded Full States: 28
+
+
+Number of moves in the final solution: 29
+|(47,16)|
+|(46,16)|
+|(45,16)|
+|(44,16)|
+|(43,16)|
+|(43,17)|
+|(42,17)|
+|(41,17)|
+|(40,17)|
+|(40,18)|
+|(40,19)|
+|(39,19)|
+|(38,19)|
+|(37,19)|
+|(36,19)|<-- the middle of the plan
+|(36,18)|
+|(35,18)|
+|(34,18)|
+|(34,17)|
+|(33,17)|
+|(32,17)|
+|(32,16)|
+|(31,16)|
+|(30,16)|
+|(30,15)|
+|(30,14)|
+|(29,14)|
+|(29,13)|
+|(29,12)|
++SUCCESS+ (:
+
+Solving Problem instance:1 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 13
+Solution depth: 0
+
+Time In milliseconds: 0.130300000000005
+Total Expanded Nodes: 13
+Total Generated Nodes: 18
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 12
+EPEA*/SIC Quick insertions cancelled: 3
+Expanded Full States: 13
+
+
+Number of moves in the final solution: 14
+|(5,24)|
+|(4,24)|
+|(3,24)|
+|(3,23)|
+|(2,23)|
+|(2,22)|
+|(2,21)|
+|(3,21)|<-- the middle of the plan
+|(3,20)|
+|(3,19)|
+|(3,18)|
+|(4,18)|
+|(4,17)|
+|(4,16)|
++SUCCESS+ (:
+
+Solving Problem instance:2 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 35
+Solution depth: 0
+
+Time In milliseconds: 1.27250000000001
+Total Expanded Nodes: 35
+Total Generated Nodes: 53
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 34
+EPEA*/SIC Quick insertions cancelled: 17
+Expanded Full States: 35
+
+
+Number of moves in the final solution: 36
+|(12,39)|
+|(12,38)|
+|(13,38)|
+|(13,37)|
+|(13,36)|
+|(14,36)|
+|(15,36)|
+|(16,36)|
+|(17,36)|
+|(18,36)|
+|(19,36)|
+|(20,36)|
+|(21,36)|
+|(21,35)|
+|(22,35)|
+|(23,35)|
+|(24,35)|
+|(24,34)|
+|(25,34)|<-- the middle of the plan
+|(26,34)|
+|(27,34)|
+|(28,34)|
+|(29,34)|
+|(30,34)|
+|(31,34)|
+|(32,34)|
+|(32,33)|
+|(33,33)|
+|(34,33)|
+|(34,32)|
+|(34,31)|
+|(35,31)|
+|(35,30)|
+|(35,29)|
+|(35,28)|
+|(35,27)|
++SUCCESS+ (:
+
+Solving Problem instance:3 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 38
+Solution depth: 0
+
+Time In milliseconds: 0.186499999999995
+Total Expanded Nodes: 38
+Total Generated Nodes: 48
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 37
+EPEA*/SIC Quick insertions cancelled: 9
+Expanded Full States: 38
+
+
+Number of moves in the final solution: 39
+|(39,23)|
+|(38,23)|
+|(37,23)|
+|(36,23)|
+|(35,23)|
+|(34,23)|
+|(33,23)|
+|(32,23)|
+|(31,23)|
+|(30,23)|
+|(29,23)|
+|(28,23)|
+|(27,23)|
+|(26,23)|
+|(26,24)|
+|(25,24)|
+|(24,24)|
+|(23,24)|
+|(23,23)|
+|(22,23)|<-- the middle of the plan
+|(21,23)|
+|(20,23)|
+|(19,23)|
+|(18,23)|
+|(17,23)|
+|(16,23)|
+|(15,23)|
+|(14,23)|
+|(13,23)|
+|(13,22)|
+|(12,22)|
+|(11,22)|
+|(10,22)|
+|(10,21)|
+|(10,20)|
+|(9,20)|
+|(8,20)|
+|(8,19)|
+|(7,19)|
++SUCCESS+ (:
+
+Solving Problem instance:4 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 23
+Solution depth: 0
+
+Time In milliseconds: 0.2089
+Total Expanded Nodes: 23
+Total Generated Nodes: 37
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 22
+EPEA*/SIC Quick insertions cancelled: 12
+Expanded Full States: 23
+
+
+Number of moves in the final solution: 24
+|(47,25)|
+|(46,25)|
+|(46,24)|
+|(45,24)|
+|(44,24)|
+|(43,24)|
+|(42,24)|
+|(41,24)|
+|(40,24)|
+|(39,24)|
+|(38,24)|
+|(37,24)|
+|(36,24)|<-- the middle of the plan
+|(35,24)|
+|(34,24)|
+|(34,23)|
+|(34,22)|
+|(34,21)|
+|(34,20)|
+|(34,19)|
+|(34,18)|
+|(34,17)|
+|(33,17)|
+|(32,17)|
++SUCCESS+ (:
+
+Solving Problem instance:5 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 22
+Solution depth: 0
+
+Time In milliseconds: 0.21690000000001
+Total Expanded Nodes: 22
+Total Generated Nodes: 29
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 21
+EPEA*/SIC Quick insertions cancelled: 5
+Expanded Full States: 22
+
+
+Number of moves in the final solution: 23
+|(27,23)|
+|(27,24)|
+|(27,25)|
+|(27,26)|
+|(27,27)|
+|(28,27)|
+|(29,27)|
+|(30,27)|
+|(31,27)|
+|(31,28)|
+|(31,29)|
+|(31,30)|<-- the middle of the plan
+|(31,31)|
+|(32,31)|
+|(33,31)|
+|(34,31)|
+|(35,31)|
+|(36,31)|
+|(36,32)|
+|(37,32)|
+|(38,32)|
+|(39,32)|
+|(40,32)|
++SUCCESS+ (:
+
+Solving Problem instance:6 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 31
+Solution depth: 0
+
+Time In milliseconds: 0.205399999999997
+Total Expanded Nodes: 31
+Total Generated Nodes: 44
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 30
+EPEA*/SIC Quick insertions cancelled: 11
+Expanded Full States: 31
+
+
+Number of moves in the final solution: 32
+|(11,48)|
+|(12,48)|
+|(13,48)|
+|(14,48)|
+|(15,48)|
+|(16,48)|
+|(16,47)|
+|(17,47)|
+|(17,46)|
+|(18,46)|
+|(18,45)|
+|(19,45)|
+|(19,44)|
+|(19,43)|
+|(20,43)|
+|(21,43)|
+|(22,43)|<-- the middle of the plan
+|(23,43)|
+|(24,43)|
+|(25,43)|
+|(26,43)|
+|(27,43)|
+|(28,43)|
+|(29,43)|
+|(30,43)|
+|(31,43)|
+|(32,43)|
+|(33,43)|
+|(33,42)|
+|(33,41)|
+|(33,40)|
+|(33,39)|
++SUCCESS+ (:
+
+Solving Problem instance:7 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 31
+Solution depth: 0
+
+Time In milliseconds: 0.180199999999957
+Total Expanded Nodes: 31
+Total Generated Nodes: 50
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 30
+EPEA*/SIC Quick insertions cancelled: 17
+Expanded Full States: 31
+
+
+Number of moves in the final solution: 32
+|(5,1)|
+|(5,2)|
+|(5,3)|
+|(6,3)|
+|(6,4)|
+|(6,5)|
+|(6,6)|
+|(6,7)|
+|(6,8)|
+|(6,9)|
+|(6,10)|
+|(6,11)|
+|(6,12)|
+|(6,13)|
+|(6,14)|
+|(6,15)|
+|(6,16)|<-- the middle of the plan
+|(6,17)|
+|(6,18)|
+|(7,18)|
+|(7,19)|
+|(8,19)|
+|(8,20)|
+|(9,20)|
+|(10,20)|
+|(10,21)|
+|(11,21)|
+|(12,21)|
+|(13,21)|
+|(13,20)|
+|(14,20)|
+|(15,20)|
++SUCCESS+ (:
+
+Solving Problem instance:8 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 25
+Solution depth: 0
+
+Time In milliseconds: 0.154499999999985
+Total Expanded Nodes: 25
+Total Generated Nodes: 33
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 24
+EPEA*/SIC Quick insertions cancelled: 6
+Expanded Full States: 25
+
+
+Number of moves in the final solution: 26
+|(6,13)|
+|(6,14)|
+|(6,15)|
+|(6,16)|
+|(6,17)|
+|(6,18)|
+|(7,18)|
+|(7,19)|
+|(8,19)|
+|(8,20)|
+|(9,20)|
+|(10,20)|
+|(10,21)|
+|(10,22)|<-- the middle of the plan
+|(10,23)|
+|(10,24)|
+|(10,25)|
+|(10,26)|
+|(10,27)|
+|(10,28)|
+|(10,29)|
+|(10,30)|
+|(9,30)|
+|(9,31)|
+|(9,32)|
+|(9,33)|
++SUCCESS+ (:
+
+Solving Problem instance:9 Grid Name:Random Grid #Agents:1, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 16
+Solution depth: 0
+
+Time In milliseconds: 0.126800000000003
+Total Expanded Nodes: 16
+Total Generated Nodes: 24
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 15
+EPEA*/SIC Quick insertions cancelled: 6
+Expanded Full States: 16
+
+
+Number of moves in the final solution: 17
+|(35,10)|
+|(35,11)|
+|(36,11)|
+|(36,12)|
+|(36,13)|
+|(36,14)|
+|(36,15)|
+|(36,16)|
+|(37,16)|<-- the middle of the plan
+|(37,17)|
+|(37,18)|
+|(37,19)|
+|(38,19)|
+|(38,20)|
+|(39,20)|
+|(40,20)|
+|(41,20)|
++SUCCESS+ (:
+
+#################################################
+Here are the new caculated middle positions from the separeted single agents solutions:
+|(36,19)|(3,21)|(25,34)|(22,23)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+Great, you executed the automated middle positions algorithm!
+Solving Problem instance:0 Grid Name:Random Grid #Agents:10, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 262
+Solution depth: 0
+
+Time In milliseconds: 5116.043
+Total Expanded Nodes: 9215
+Total Generated Nodes: 10058
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 241776
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 9177
+EPEA*/SIC Quick insertions: 6442
+EPEA*/SIC Quick insertions cancelled: 3359
+Expanded Full States: 9215
+
+
+Number of moves in the final solution: 39
+|(47,16)|(5,24)|(12,39)|(39,23)|(47,25)|(27,23)|(11,48)|(5,1)|(6,13)|(35,10)|
+|(46,16)|(4,24)|(12,38)|(38,23)|(46,25)|(27,24)|(12,48)|(5,2)|(6,14)|(35,11)|
+|(45,16)|(3,24)|(13,38)|(37,23)|(46,24)|(27,25)|(13,48)|(5,3)|(6,15)|(36,11)|
+|(44,16)|(3,23)|(13,37)|(36,23)|(45,24)|(27,26)|(14,48)|(6,3)|(6,16)|(36,12)|
+|(43,16)|(2,23)|(13,36)|(35,23)|(44,24)|(27,27)|(15,48)|(6,4)|(6,17)|(36,13)|
+|(43,17)|(2,22)|(14,36)|(34,23)|(43,24)|(28,27)|(16,48)|(6,5)|(6,18)|(37,13)|
+|(42,17)|(2,21)|(15,36)|(33,23)|(42,24)|(29,27)|(16,47)|(6,6)|(7,18)|(38,13)|
+|(41,17)|(3,21)|(16,36)|(32,23)|(41,24)|(30,27)|(17,47)|(6,7)|(7,19)|(38,14)|
+|(40,17)|(3,20)|(17,36)|(31,23)|(40,24)|(31,27)|(17,46)|(6,8)|(8,19)|(38,15)|
+|(40,18)|(3,19)|(18,36)|(30,23)|(39,24)|(31,28)|(18,46)|(6,9)|(8,20)|(39,15)|
+|(40,19)|(3,18)|(19,36)|(29,23)|(38,24)|(31,29)|(18,45)|(6,10)|(9,20)|(39,16)|
+|(39,19)|(4,18)|(20,36)|(28,23)|(37,24)|(31,30)|(19,45)|(6,11)|(10,20)|(40,16)|
+|(38,19)|(4,17)|(21,36)|(27,23)|(36,24)|(31,31)|(19,44)|(6,12)|(10,21)|(40,17)|
+|(37,19)|(4,16)|(21,35)|(26,23)|(35,24)|(32,31)|(19,43)|(6,13)|(10,22)|(40,18)|
+|(36,19)|(4,16)|(22,35)|(26,24)|(34,24)|(33,31)|(20,43)|(6,14)|(10,23)|(40,19)|
+|(36,18)|(4,16)|(23,35)|(25,24)|(34,23)|(34,31)|(21,43)|(6,15)|(10,24)|(40,20)|
+|(35,18)|(4,16)|(24,35)|(24,24)|(34,22)|(35,31)|(22,43)|(6,16)|(10,25)|(41,20)|
+|(34,18)|(4,16)|(24,34)|(23,24)|(34,21)|(36,31)|(23,43)|(6,17)|(10,26)|(41,20)|
+|(34,17)|(4,16)|(25,34)|(23,23)|(34,20)|(36,32)|(24,43)|(6,18)|(10,27)|(41,20)|
+|(33,17)|(4,16)|(26,34)|(22,23)|(34,19)|(37,32)|(25,43)|(7,18)|(10,28)|(41,20)|<-- the middle of the plan
+|(32,17)|(4,16)|(27,34)|(21,23)|(34,18)|(38,32)|(26,43)|(7,19)|(10,29)|(41,20)|
+|(32,16)|(4,16)|(28,34)|(20,23)|(34,17)|(39,32)|(27,43)|(8,19)|(10,30)|(41,20)|
+|(31,16)|(4,16)|(29,34)|(19,23)|(33,17)|(40,32)|(28,43)|(8,20)|(9,30)|(41,20)|
+|(30,16)|(4,16)|(30,34)|(18,23)|(32,17)|(40,32)|(29,43)|(9,20)|(9,31)|(41,20)|
+|(30,15)|(4,16)|(31,34)|(17,23)|(32,17)|(40,32)|(30,43)|(10,20)|(9,32)|(41,20)|
+|(30,14)|(4,16)|(32,34)|(16,23)|(32,17)|(40,32)|(31,43)|(10,21)|(9,33)|(41,20)|
+|(29,14)|(4,16)|(32,33)|(15,23)|(32,17)|(40,32)|(32,43)|(11,21)|(9,33)|(41,20)|
+|(29,13)|(4,16)|(33,33)|(14,23)|(32,17)|(40,32)|(33,43)|(12,21)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(34,33)|(13,23)|(32,17)|(40,32)|(33,42)|(13,21)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(34,32)|(13,22)|(32,17)|(40,32)|(33,41)|(13,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(34,31)|(12,22)|(32,17)|(40,32)|(33,40)|(14,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,31)|(11,22)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,30)|(10,22)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,29)|(10,21)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,28)|(10,20)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(9,20)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(8,20)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(8,19)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(7,19)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
++SUCCESS+ (:
+
+-----------> Finished the regular A*star solution <-----------
+
+The middle stage of the plan from full Astar on all the agents together:
+|(33,17)|(4,16)|(26,34)|(22,23)|(34,19)|(37,32)|(25,43)|(7,18)|(10,28)|(41,20)|
+Here are the new caculated middle positions from the separeted single agents solutions:
+Middle position for agent 0: 36,19
+Middle position for agent 1: 3,21
+Middle position for agent 2: 25,34
+Middle position for agent 3: 22,23
+Middle position for agent 4: 36,24
+Middle position for agent 5: 31,30
+Middle position for agent 6: 22,43
+Middle position for agent 7: 6,16
+Middle position for agent 8: 10,22
+Middle position for agent 9: 37,16
+
+Solving Problem instance:11 Grid Name:Random Grid #Agents:10, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 134
+Solution depth: 0
+
+Time In milliseconds: 3.53549999999996
+Total Expanded Nodes: 19
+Total Generated Nodes: 376
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 18
+EPEA*/SIC Quick insertions cancelled: 101
+Expanded Full States: 19
+
+
+Number of moves in the final solution: 20
+|(47,16)|(5,24)|(12,39)|(39,23)|(47,25)|(27,23)|(11,48)|(5,1)|(6,13)|(35,10)|
+|(46,16)|(4,24)|(12,38)|(38,23)|(46,25)|(27,24)|(12,48)|(5,2)|(6,14)|(35,11)|
+|(45,16)|(3,24)|(13,38)|(37,23)|(46,24)|(27,25)|(13,48)|(5,3)|(6,15)|(36,11)|
+|(44,16)|(3,23)|(13,37)|(36,23)|(45,24)|(27,26)|(14,48)|(6,3)|(6,16)|(36,12)|
+|(43,16)|(2,23)|(13,36)|(35,23)|(44,24)|(27,27)|(15,48)|(6,4)|(6,17)|(36,13)|
+|(43,17)|(2,22)|(14,36)|(34,23)|(43,24)|(28,27)|(16,48)|(6,5)|(6,18)|(36,14)|
+|(42,17)|(2,21)|(15,36)|(33,23)|(42,24)|(29,27)|(16,47)|(6,6)|(7,18)|(36,15)|
+|(41,17)|(3,21)|(16,36)|(32,23)|(41,24)|(30,27)|(17,47)|(6,7)|(7,19)|(36,16)|
+|(40,17)|(3,21)|(17,36)|(31,23)|(40,24)|(31,27)|(17,46)|(6,8)|(8,19)|(37,16)|
+|(40,18)|(3,21)|(18,36)|(30,23)|(39,24)|(31,28)|(18,46)|(6,9)|(8,20)|(37,16)|
+|(40,19)|(3,21)|(19,36)|(29,23)|(38,24)|(31,29)|(18,45)|(6,10)|(9,20)|(37,16)|
+|(39,19)|(3,21)|(20,36)|(28,23)|(37,24)|(31,30)|(19,45)|(6,11)|(10,20)|(37,16)|
+|(38,19)|(3,21)|(21,36)|(27,23)|(36,24)|(31,30)|(19,44)|(6,12)|(10,21)|(37,16)|
+|(37,19)|(3,21)|(21,35)|(26,23)|(36,24)|(31,30)|(19,43)|(6,13)|(10,22)|(37,16)|
+|(36,19)|(3,21)|(22,35)|(26,24)|(36,24)|(31,30)|(20,43)|(6,14)|(10,22)|(37,16)|
+|(36,19)|(3,21)|(23,35)|(25,24)|(36,24)|(31,30)|(21,43)|(6,15)|(10,22)|(37,16)|
+|(36,19)|(3,21)|(24,35)|(24,24)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+|(36,19)|(3,21)|(24,34)|(23,24)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+|(36,19)|(3,21)|(25,34)|(23,23)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+|(36,19)|(3,21)|(25,34)|(22,23)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
++SUCCESS+ (:
+
+-----------> Finished first half of A*star <-----------
+
+Solving Problem instance:12 Grid Name:Random Grid #Agents:10, GridCells:2000, #Obstacles:500
+-----------------EPEA*/SIC-----------------
+Total cost: 128
+Solution depth: 0
+
+Time In milliseconds: 2.6260000000002
+Total Expanded Nodes: 19
+Total Generated Nodes: 129
+Total Reopened Nodes: 0
+Num BPMX boosts: 0
+Closed list hits: 0
+Reopened Nodes With Old H: 0
+No Reopen H Updates: 0
+Max expansion delay: 0
+EPEA*/SIC Quick insertions: 18
+EPEA*/SIC Quick insertions cancelled: 102
+Expanded Full States: 19
+
+
+Number of moves in the final solution: 20
+|(36,19)|(3,21)|(25,34)|(22,23)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+|(36,18)|(3,20)|(26,34)|(21,23)|(35,24)|(31,31)|(23,43)|(6,17)|(10,23)|(37,17)|
+|(35,18)|(3,19)|(27,34)|(20,23)|(34,24)|(32,31)|(24,43)|(6,18)|(10,24)|(37,18)|
+|(34,18)|(3,18)|(28,34)|(19,23)|(34,23)|(33,31)|(25,43)|(7,18)|(10,25)|(37,19)|
+|(34,17)|(4,18)|(29,34)|(18,23)|(34,22)|(34,31)|(26,43)|(7,19)|(10,26)|(38,19)|
+|(33,17)|(4,17)|(30,34)|(17,23)|(34,21)|(35,31)|(27,43)|(8,19)|(10,27)|(38,20)|
+|(32,17)|(4,16)|(31,34)|(16,23)|(34,20)|(36,31)|(28,43)|(8,20)|(10,28)|(39,20)|
+|(32,16)|(4,16)|(32,34)|(15,23)|(34,19)|(36,32)|(29,43)|(9,20)|(10,29)|(40,20)|
+|(31,16)|(4,16)|(32,33)|(14,23)|(34,18)|(37,32)|(30,43)|(10,20)|(10,30)|(41,20)|
+|(30,16)|(4,16)|(33,33)|(13,23)|(34,17)|(38,32)|(31,43)|(10,21)|(9,30)|(41,20)|
+|(30,15)|(4,16)|(34,33)|(13,22)|(33,17)|(39,32)|(32,43)|(11,21)|(9,31)|(41,20)|
+|(30,14)|(4,16)|(34,32)|(12,22)|(32,17)|(40,32)|(33,43)|(12,21)|(9,32)|(41,20)|
+|(29,14)|(4,16)|(34,31)|(11,22)|(32,17)|(40,32)|(33,42)|(13,21)|(9,33)|(41,20)|
+|(29,13)|(4,16)|(35,31)|(10,22)|(32,17)|(40,32)|(33,41)|(13,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,30)|(10,21)|(32,17)|(40,32)|(33,40)|(14,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,29)|(10,20)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,28)|(9,20)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(8,20)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(8,19)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
+|(29,12)|(4,16)|(35,27)|(7,19)|(32,17)|(40,32)|(33,39)|(15,20)|(9,33)|(41,20)|
++SUCCESS+ (:
+
+-----------> Finished the second forward A*star <-----------
+
+
+########################################################################
+************************************************************************
+
+You solved the problem using the splitted Forward-Forward algorithm - both of the parts were solved using forward search solver
+
+########################################################################
+************************************************************************
+
+The middle position of the plan from full Astar on all the agents together:
+|(33,17)|(4,16)|(26,34)|(22,23)|(34,19)|(37,32)|(25,43)|(7,18)|(10,28)|(41,20)|
+Here are the new caculated middle positions from the separeted single agents solutions:
+|(36,19)|(3,21)|(25,34)|(22,23)|(36,24)|(31,30)|(22,43)|(6,16)|(10,22)|(37,16)|
+Great, you executed the automated middle positions algorithm!!
+
+#################################################
+                Final Results!:
+#################################################
+---------------------------------------------------
+Total cost full regular A*star = 262
+Total cost Bi - Directional A* star = 262
+Bi - Directional details:
+Total cost starting half A* star = 134
+Total cost reverse half A* star = 128
+---------------------------------------------------
+Total time full regular A*star = 5116
+Total time Bi - Directional A* star = 5
+Bi - Directional details:
+Total time starting half A* star = 3
+Total time reverse half A* star = 2
+--------------------------------------------------
+Total generated nodes full regular A*star = 10058
+Total generated nodes Bi-Directional A* star = 505
+Bi - Directional details:
+Total generated nodes starting half A*star = 376
+Total generated nodes reverse half A*star = 129
+--------------------------------------------------
+Total opened nodes full regular A*star = 3437750
+Total opened nodes Bi-Directional A* star = 5787
+Bi - Directional details:
+Total opened nodes starting half A*star = 3315
+Total opened nodes reverse half A*star = 2472
+--------------------------------------------------
+*********************THE END**************************
+
+
+
+
